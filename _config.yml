@@ -10,13 +10,11 @@ email: prateekgarg0020@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal landing page for Prateek Garg, Undergraduate , Electrical Engineering, IIT Bombay
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
+keywords: IIT, Bombay, Garg, Prateek, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: icons8-dog-100.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://prateekgargX.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
@@ -29,14 +27,14 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: true
-footer_fixed: true
+navbar_fixed: True
+footer_fixed: false
 
 # Dimensions
 max_width: 800px
@@ -73,7 +71,7 @@ dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  E-mail is the best way to reach me.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -89,9 +87,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Hi! # blog_name will be displayed in your blog page
+blog_name: My Blog # blog_name will be displayed in your blog page
 blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: May find what you seek
+blog_description: you might find something useful
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -269,9 +267,9 @@ jekyll-diagrams:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
-enable_panelbear_analytics: false  # enables panelbear analytics
-enable_google_verification: false  # enables google site verification
+enable_google_analytics:    true  # enables google analytics
+enable_panelbear_analytics: true  # enables panelbear analytics
+enable_google_verification: true  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
 enable_masonry:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
@@ -281,6 +279,8 @@ enable_darkmode:            true   # enables switching between light/dark modes
 enable_navbar_social:       false  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
+                                   # multiple categories
+enable_gallery_categories:  true   # enables categorization of projects into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 
