@@ -5,8 +5,8 @@ nav: true
 nav_order: 5
 dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
+    - title: 1-Page
+      permalink: assets/pdf/CV_Prateek_Garg__R.pdf/
     - title: divider
     - title: projects
       permalink: /projects/
