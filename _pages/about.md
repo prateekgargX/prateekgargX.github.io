@@ -21,7 +21,7 @@ I am fascinated by a lot of stuff, much of it is centered around Machine Learnin
 
 Ocassionally, I like to sketch, you can check some of those in [Gallery](Gallery/), which also have some other cool pictures I have taken as well. I also like to pretend that i have a great taste in [music](https://open.spotify.com/user/nfcydzarhf61kcjd2r2z6yreb?si=252bcb8469064e19).
 
-Also, I am weirdly proud of this [404 page](DND/).
+Also, I am weirdly proud of this [custom 404 page](DND/).
 
 The template for this site is lifted from [here](https://github.com/alshedivat/al-folio).
 
