@@ -2,11 +2,11 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Stuff.
 nav: true
 nav_order: 2
-display_categories: [Deep Learning,Parallel Programming]
-horizontal: false
+display_categories: # [Deep Learning,Parallel Programming]
+horizontal: False
 ---
 
 <!-- pages/projects.md -->
