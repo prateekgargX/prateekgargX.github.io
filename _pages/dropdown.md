@@ -1,7 +1,7 @@
 ---
 layout: page
-title: CV
-nav: true
+title: subCv
+nav: false
 nav_order: 5
 dropdown: true
 children: 
