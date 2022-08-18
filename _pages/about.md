@@ -2,14 +2,14 @@
 layout: about
 title: About
 permalink: /
-subtitle: <i> “A ship in harbour is safe, but that is not what ships are built for.”  <br> -John A Shedd </i>
+subtitle: <i> “A ship in harbour is safe, but that is not what ships are built for.”  <br> - John A. Shedd </i>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_cicular: false # crops the image to make it circular
   address: >
-    <p> C-69, Hostel 5, IIT Bombay </p>
+    <p> C-69, Hostel 5, <br> IIT Bombay </p>
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
