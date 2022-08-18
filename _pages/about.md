@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <i> shispsppspsps </i>
+subtitle: <i> “A ship in harbour is safe, but that is not what ships are built for.”  <br> -John A Shedd </i>
 
 profile:
   align: right
