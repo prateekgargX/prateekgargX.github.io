@@ -2,14 +2,14 @@
 layout: about
 title: About
 permalink: /
-subtitle: C-69, Hostel 5, IIT Bombay
+subtitle: <i> shispsppspsps </i>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_cicular: false # crops the image to make it circular
   address: >
-    <p> a pic I use everywhere </p>
+    <p> C-69, Hostel 5, IIT Bombay </p>
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
