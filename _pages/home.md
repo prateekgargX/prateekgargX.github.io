@@ -2,18 +2,10 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <i> “A ship in harbour is safe, but that is not what ships are built for.”  <br> - John A. Shedd </i>
 
-profile:
-  align: left
-  image: # prof_pic.jpg
-  image_cicular: true # crops the image to make it circular
-  address: >
-#    <p> C-69, Hostel 5, <br> IIT Bombay </p>
-
-news: true  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+news: true  # includes a list of news items --rename updates
+extras: true # includes a list of Extra stuff
+blog_i: true
 ---
 
 
@@ -24,8 +16,3 @@ Occasionally, I like to sketch, you can check some of those in [Gallery](Gallery
 Also, I am weirdly proud of this [404 page](DNE/).
 See CV [here](CV/)
 The template for this site is lifted from [here](https://github.com/alshedivat/al-folio).
-
-<!---
-# Over the course of few months from now, I'll modify this site extensively
--->
-

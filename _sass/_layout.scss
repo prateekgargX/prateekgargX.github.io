@@ -61,3 +61,37 @@ body.sticky-bottom-footer {
 .work-text {
   overflow: hidden;
 }
+
+.nav-bubble {
+  float: left;
+  padding-right: 70px;
+  // padding-bottom: 0.5em;
+  width: 60px;
+  text-align: center;
+  // height: 100px;
+  // object-fit: cover;
+}
+
+.nav-prof {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.site-info {
+  float: left;
+}
+
+.site-desc{
+  margin: -5px 0 0 0;
+  color: #666;
+  font-size: 16px;
+}
+
+.site-avatar {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+  margin-top: 10px;
+}
