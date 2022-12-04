@@ -4,7 +4,9 @@ title: Attribution models in DL
 description: Visual Explanations of Deep Neural Networks 
 img: assets/img/dog.jpg
 importance: 1
-category: Deep Learning 
+category: Active
+code: https://github.com/prateekgargX/Rendera
+demo: https://github.com/prateekgargX/Rendera 
 ---
 
 

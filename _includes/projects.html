@@ -1,36 +1,31 @@
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  {% if project.redirect -%}
-  <a href="{{ project.redirect }}">
-    {%- else -%}
-    <a href="{{ project.url | relative_url }}">
-      {%- endif %}
-      <div class="card hoverable">
-        {%- if project.img %}
-        {%- include figure.html
-          path=project.img
-          alt="project thumbnail" -%}
-        {%- endif %}
-        <div class="card-body">
-          <h2 class="card-title">{{ project.title }}</h2>
-          <p class="card-text">{{ project.description }}</p>
-          <div class="row ml-1 mr-1 p-0">
-            {%- if project.github -%}
-            <div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ project.github }}"><i class="fab fa-github gh-icon"></i></a>
-              </div>
-              {%- if project.github_stars -%}
-              <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                <i class="fas fa-star"></i>
-                <span id="{{ project.github_stars }}-stars"></span>
-              </span>
-              {%- endif %}
-            </div>
-            {%- endif %}
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
+<div class="work-item vertical-center-text">
+  <div class="work-bubble-with-date">
+    <img
+    src="{{ project.img | absolute_url }}"
+    class="work-bubble"
+    />
+    </div>
+  <p class="work-text">
+  <strong>{{ project.title }}</strong> <br/>
+  {{ project.description | markdownify  | remove: '<p>' | remove: '</p>' | strip }}
+  <br/>
+  <div class="links">
+  <a href="{{ project.url | relative_url }}" class="btn btn-sm z-depth-0" role="button">Read More</a>
+  {% if project.code %}
+  <a href="{{ project.code }}" class="btn btn-sm z-depth-0"  role="button"><i class="fab fa-github gh-icon"></i> Source</a>
+  {% endif %}
+  {% if project.demo %}
+  <a href="{{ project.demo }}" class="btn btn-sm z-depth-0" role="button">Demo</a>
+  {% endif %}
+  {% if project.website %}
+  <a href="{{ project.website }}" class="btn btn-sm z-depth-0" role="button" >Website</a>
+  {% endif %}
+  {% if project.blog %}
+  <a href="{{ project.blog }}" class="btn btn-sm z-depth-0" role="button" >Blog</a>
+  {% endif %}
+  {% if project.documentation %}
+  <a href="{{ project.documentation }}" class="btn btn-sm z-depth-0" role="button">Documentation</a>
+  {% endif %}
+  </div>
+  </p>
+</div>    

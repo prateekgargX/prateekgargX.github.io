@@ -607,6 +607,25 @@ html.transition *:after {
   transition-delay: 0 !important;
 }
 
+
+.links {
+  a.btn {
+    color: var(--global-text-color);
+    border: 1px solid var(--global-text-color);
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    &:hover {
+      color: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+    }
+  }
+}
+
 // Extra Markdown style (post Customization)
 .post{
   .post-meta{

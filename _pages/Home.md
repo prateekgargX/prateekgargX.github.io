@@ -22,7 +22,7 @@ Hi, my name is Prateek, 3rd year undergrad at the [Department of Electrical Engi
 Occasionally, I like to sketch, you can check some of those in [Gallery](Gallery/), which also has some other cool pictures I have taken. I also like to pretend that I have great taste in [music](https://open.spotify.com/user/nfcydzarhf61kcjd2r2z6yreb?si=252bcb8469064e19).
 
 Also, I am weirdly proud of this [404 page](DNE/).
-
+See CV [here](CV/)
 The template for this site is lifted from [here](https://github.com/alshedivat/al-folio).
 
 <!---

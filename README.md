@@ -6,6 +6,8 @@ Source files for my [page](http://prateekgargx.github.io/ "Welcome")
 - https://bmild.github.io/
 - https://tom.preston-werner.com/
   
+Read More | {GitHub} Code | Demo | Documentation | Website
+
 Here's a cool tree
 ```bash.
 ├── .github
