@@ -1,6 +1,11 @@
 ### My personal landing page
 Source files for my [page](http://prateekgargx.github.io/ "Welcome")
 
+- https://thenumb.at/
+- https://brsata.github.io/nordal-folio/
+- https://bmild.github.io/
+- https://tom.preston-werner.com/
+  
 Here's a cool tree
 ```bash.
 ├── .github
