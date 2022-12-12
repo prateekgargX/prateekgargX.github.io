@@ -9,7 +9,7 @@ blog_i: true
 ---
 
 
-I am currently a 3<sup>rd</sup> year undergrad at the [Department of Electrical Engineering](https://www.ee.iitb.ac.in/web) @IIT Bombay. I am interested in Signal Processing, Machine Learning and Computer Architecture to speed them up.
+I am currently a 3<sup>rd</sup> year undergrad at the [Department of Electrical Engineering](https://www.ee.iitb.ac.in/web) @IIT Bombay. I am interested in Signal Processing, Machine Learning and Hardware to speed them up.
 
 - [Curriculum vitae](CV/)
 - [Projects](projects/)

@@ -20,7 +20,7 @@
     {%- endif -%}
     {% if page.url == '/blog/index.html' %}
         {{ site.blog_nav_title }}
-    {%- elsif page.title != "blank" and page.url != "/" -%}
+    {%- elsif page.title != "blank" -%}
         {{ page.title }}
     {%- else -%}
         {{ title }}
