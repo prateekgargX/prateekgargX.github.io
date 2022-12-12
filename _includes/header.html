@@ -3,24 +3,12 @@
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
         <div class="container">
+          <!-- NEED TO INCLUDE A AVATAR HERE -->
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
-            {%- if site.pfp %}
-            <img src="{{ site.pfp.img | prepend: '/assets/img/' }}" class="site-avatar"/>
-            <!-- <span class="nav-item"><img src="{{ site.pfp.img | prepend: '/assets/img/' }}" class="nav-prof"/></span>           -->
-            {% endif -%}
-              <!-- <b>
-              {%- if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif -%}
-              </b>
-                            {{ site.subtitle }} -->
-            
-            <div class="site-info">
-                <h1>
-                  <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}
-                </h1>
-                <p class="site-description">{{ site.subtitle }}</p>
-            </div>
+              <!-- {%- if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif -%} -->
+              <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}
           </a>
-          
+
           <!-- Navbar Toggle -->
           <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
