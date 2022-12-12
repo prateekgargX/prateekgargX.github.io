@@ -9,10 +9,8 @@ blog_i: true
 ---
 
 
-Hi, my name is Prateek, 3rd year undergrad at the [Department of Electrical Engineering](https://www.ee.iitb.ac.in/web) @IIT Bombay with a Minor in Computer Science and Engineering. I am fascinated by a lot of stuff, much of it is centered around Machine Learning, Computer Architecture, and Parallel programming (expect blog posts soon). Other than these I have also been a part of [Veloce Hyperloop](https://hyperloopiitb.github.io/) in Controls Subsystem. Head on to the [projects](projects/) page to learn about the work I have done so far.
+I am currently a 3<sup>rd</sup> year undergrad at the [Department of Electrical Engineering](https://www.ee.iitb.ac.in/web) @IIT Bombay. I am interested in Signal Processing, Machine Learning and Computer Architecture to speed them up.
 
-Occasionally, I like to sketch, you can check some of those in [Gallery](Gallery/), which also has some other cool pictures I have taken. I also like to pretend that I have great taste in [music](https://open.spotify.com/user/nfcydzarhf61kcjd2r2z6yreb?si=252bcb8469064e19).
-
-Also, I am weirdly proud of this [404 page](DNE/).
-See CV [here](CV/)
-The template for this site is lifted from [here](https://github.com/alshedivat/al-folio).
+- [Curriculum vitae](CV/)
+- [Projects](projects/)
+- [a cool 404 page](DNE/)
