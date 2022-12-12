@@ -5,7 +5,7 @@
 form_url: https://forms.gle/fAEMrLKnVsmASmhL7
 title:
 # Prateek Garg # the website title (if blank, full name will be used instead)
-subtitle: Computers and Computing
+subtitle: This site is goooood
 first_name: Prateek
 middle_name: 
 last_name: Garg
@@ -43,7 +43,7 @@ rss_icon: True
 navbar_fixed: false
 
 # Dimensions
-max_width: 1000px
+max_width: 850px
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
