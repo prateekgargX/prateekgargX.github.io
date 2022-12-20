@@ -1,9 +1,13 @@
 <div class="work-item vertical-center-text">
   <div class="work-bubble-with-date">
-    <img
+    <!-- <img
     src="{{ project.img | absolute_url }}"
     class="work-bubble"
-    />
+    /> -->
+    {% include figure.html path=project.img class="img-fluid rounded z-depth-1" zoomable=true %}
+    <div class="caption">
+      {{project.info}}
+    </div>  
     </div>
   <p class="work-text">
   <strong>{{ project.title }}</strong> <br/>
