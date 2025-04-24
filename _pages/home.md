@@ -3,6 +3,11 @@ layout: about
 title: Home
 permalink: /
 
+profile:
+  align: right
+  image: pfp.jpg
+  image_circular: true # crops the image to make it circular
+
 news: true  # includes a list of news items --rename updates
 extras: true # includes a list of Extra stuff
 blog_i: true

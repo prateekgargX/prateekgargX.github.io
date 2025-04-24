@@ -11,11 +11,6 @@ middle_name:
 last_name: Garg
 email: prateekgarg0020@gmail.com
 
-pfp:
-  img: prof_pic.jpg #icons8-dog-100.png
-  cicular: false # crops the image to make it circular
-  address: >
-
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Prateek's Personal landing page 
 footer_text: > # text to be shown at bottom
