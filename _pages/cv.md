@@ -4,7 +4,7 @@ permalink: /CV/
 title: CV
 nav: false
 nav_order: 3
-cv_name: 3-Page
+cv_name: Curriculum Vitae
 cv_pdf: cv.pdf 
-description: Click on the PDF icon to download
+description: Click on the PDF icon to download my CV.
 ---
