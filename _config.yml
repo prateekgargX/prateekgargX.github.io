@@ -60,7 +60,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: prateekgargX # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: prateekgargX # your Twitter handle
-linkedin_username: prateekgarg3000 # your LinkedIn user name
+linkedin_username: prateekgg # your LinkedIn user name
 scholar_userid: meuyHdkAAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
@@ -214,8 +214,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Garg
+  first_name: [Garg, P.]
 
   style: apa
   locale: en
