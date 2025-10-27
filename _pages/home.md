@@ -20,7 +20,7 @@ I was fortunate to be advised by [Prof. Sunita Sarawagi](https://scholar.google.
 
 Since graduation, I’m interning at Aalto University under [Prof. Vikas Garg](https://scholar.google.com/citations?user=JFT_m9kAAAAJ&hl=en), where I’m working on Discrete Diffusion models.
 
-I am interested in developing practical and efficient models that can support a wide range of downstream tasks, as well as in exploring robust evaluation methods to better understand their capabilities and limitations. I am currently seeking PhD opportunities starting Fall 2026, and I am open to research internships or assistantships in the meantime.
+I am interested in developing practical and efficient models that can support a wide range of downstream tasks, as well as in exploring robust evaluation methods to better understand their capabilities and limitations. I am currently seeking PhD opportunities starting Fall 2026.
 
 You can find a list of my publications [here](https://scholar.google.com/citations?user=meuyHdkAAAAJ), and explore my projects on [my GitHub](https://github.com/prateekgargX).
 
