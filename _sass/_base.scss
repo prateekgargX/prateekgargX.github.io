@@ -658,12 +658,17 @@ html.transition *:after {
 // neo news section:
 
 .news-scroll {
-  max-height: 220px;     /* controls visible height */
+  max-height: 220px;
   overflow-y: auto;
-  padding: 0.5rem 1rem;
-  border-left: 3px solid #ddd;
-  background: #fafafa;
+  padding: 0.75rem 1rem;
   margin-bottom: 1.5rem;
+
+  background-color: var(--global-card-bg-color);
+  border-left: 3px solid var(--global-theme-color);
+}
+
+.news-scroll * {
+  color: var(--global-text-color);
 }
 
 .news-list {
@@ -674,12 +679,13 @@ html.transition *:after {
 
 .news-list li {
   font-size: 0.95rem;
-  margin-bottom: 0.4rem;
   line-height: 1.4;
+  margin-bottom: 0.45rem;
 }
 
 .news-date {
+  display: inline-block;
+  min-width: 90px;
   font-weight: 600;
-  color: #555;
-  white-space: nowrap;
+  color: var(--global-text-color-light);
 }
