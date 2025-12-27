@@ -24,9 +24,26 @@ I am interested in developing practical and efficient models that can support a 
 
 You can find a list of my publications [here](https://scholar.google.com/citations?user=meuyHdkAAAAJ), and explore my projects on [my GitHub](https://github.com/prateekgargX).
 
-Here are some other relevant links:
+## Some Links
 
 - [Curriculum Vitae](CV/)
 - [Research](Research/)
 - [Contact me](mailto:{{ site.email | encode_email }})
 - [a cool 404 page](DNE/)
+
+## News
+
+<div class="news-scroll">
+
+<ul class="news-list">
+<li><span class="news-date">Nov 2025</span> &raquo; Workshop Paper: Masked Diffusion at EurIPS 2025 Workshop on Principles of Generative Modeling</li>
+<li><span class="news-date">Sep 2023</span> &raquo; Received Excellence in Teaching Assistantship Award from Department of Computer Science</li>
+<li><span class="news-date">Jul 2025</span> &raquo; Started research internship at Aalto University with Prof. Vikas Garg</li>
+<li><span class="news-date">Jan 2022</span> &raquo; Appointed Head Teaching Assistant for Advanced Machine Learning course (200+ students)</li>
+<li><span class="news-date">Sep 2025</span> &raquo; Received Undergraduate Research Award from Department of Computer Science, IIT Bombay</li>
+<li><span class="news-date">Jan 2025</span> &raquo; Paper: "From Search to Sampling: Generative Models for Robust Algorithmic Recourse" accepted to ICLR 2025</li>
+<li><span class="news-date">Feb 2024</span> &raquo; Paper accepted to BIOIMAGING 2024</li>
+<li><span class="news-date">May 2023</span> &raquo; Summer internship at Qualcomm</li>
+</ul>
+
+</div>
