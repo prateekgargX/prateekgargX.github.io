@@ -654,3 +654,32 @@ html.transition *:after {
     }
   }
 }
+
+// neo news section:
+
+.news-scroll {
+  max-height: 220px;     /* controls visible height */
+  overflow-y: auto;
+  padding: 0.5rem 1rem;
+  border-left: 3px solid #ddd;
+  background: #fafafa;
+  margin-bottom: 1.5rem;
+}
+
+.news-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.news-list li {
+  font-size: 0.95rem;
+  margin-bottom: 0.4rem;
+  line-height: 1.4;
+}
+
+.news-date {
+  font-weight: 600;
+  color: #555;
+  white-space: nowrap;
+}
