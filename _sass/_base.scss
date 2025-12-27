@@ -689,3 +689,32 @@ html.transition *:after {
   font-weight: 600;
   color: var(--global-text-color-light);
 }
+
+.news-scroll {
+  position: relative;
+}
+
+/* fade indicator */
+.news-scroll::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 35px;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    rgba(255,255,255,0),
+    var(--global-card-bg-color)
+  );
+}
+
+/* dark mode support */
+html[data-theme="dark"] .news-scroll::after {
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0),
+    var(--global-card-bg-color)
+  );
+}
