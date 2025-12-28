@@ -707,15 +707,17 @@ html[data-theme="dark"] .news-wrapper::after {
 }
 
 .news-list li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.5rem;
+
   font-size: 0.95rem;
   line-height: 1.4;
   margin-bottom: 0.45rem;
 }
 
 .news-date {
-  display: inline-block;
-  min-width: 90px;
   font-weight: 600;
   color: var(--global-text-color-light);
+  white-space: nowrap;
 }
-
